@@ -1,0 +1,74 @@
+body{
+    /*background-image: image();*/
+    background-color: tomato;
+    margin: 0px;
+    font-family: "Comic Sans MS";
+}
+h1{
+    color: springgreen;
+    background-color: red;
+    font-style: oblique;
+    text-align: center;    
+    border: 3px solid black;
+}
+h2{
+    
+    color: yellowgreen;
+    font-style: italic;
+    text-align: right;
+}
+h3{
+    
+    color: teal;
+    font-style: italic;
+    text-align: left;
+}
+p{
+    color: skyblue;
+    
+}
+
+.Chicken{
+    background-color: coral;
+    border: 3px solid black;
+    box-sizing: border-box;
+    
+}
+.Bacon{
+    background-color: orangered;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+.Fish{
+    background-color: salmon;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 750px){
+    .Chicken{
+        width: 33%;
+        float: left;
+    }
+    .Bacon{
+        width: 33%;
+        float: left;
+    }
+    .Fish{
+        width: 33%;
+        float: left;
+    }
+}
+@media screen and (max-width: 749px) and (min-width: 481px){
+    .Chicken{
+        width: 50%;
+        float: left;
+    }
+    .Bacon{
+        width: 50%;i 
+        float: left;
+    }
+    .Fish{
+        width: 100%;
+        float: left;
+    }
+}
